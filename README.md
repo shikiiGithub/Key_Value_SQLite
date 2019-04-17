@@ -1,4 +1,5 @@
-# Key_Value_SQLite
+# Key_Value_SQLite 
+##有问题可以联系我：qq:1548492402
 Store Local Data Like Using Key-Value DB 
 ### 1.first step: add following codes（在程序的Main方法中添加如下代码，这样就可以在程序的任意一个地方访问到sqlite 并快速读写数据）。
 ![0.PNG](https://github.com/shikiiGithub/Key_Value_SQLite/blob/master/0.PNG)
