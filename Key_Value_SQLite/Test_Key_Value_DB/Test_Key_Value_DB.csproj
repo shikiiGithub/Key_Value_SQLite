@@ -74,11 +74,5 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Key_Value_Sqlite\Key_Value_Sqlite.csproj">
-      <Project>{58220b46-6418-4335-b2fe-ee18bad1268b}</Project>
-      <Name>Key_Value_Sqlite</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
