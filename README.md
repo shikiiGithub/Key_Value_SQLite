@@ -12,12 +12,12 @@ Store Local Data Like Using Key-Value DB(有问题可以联系我：qq:154849240
 ### 4.if you want to edit or lookup in vs at real-time ,you need a vsix called "SQLite/SQL Server Compact Toolbox". you can download it below 
 [SQLite/SQL Server Compact Toolbox](https://marketplace.visualstudio.com/items?itemName=ErikEJ.SQLServerCompactSQLiteToolbox)(如果你想在vs中编辑或者查看sqlite数据库可以使用这个VS插件(我自己的sqlite插件将在不久推送到VS Market))
 
-## 移动跨平台：
+## 移动跨平台
 ### 请使用“Key_Value_Sqlite.NETStandard” 这个项目
-0.先在共享项目中App.xaml.cs 中添加一个public static Assembly assembly_sqliteProvider =null; 
-1.先到安卓项目中添加对System.Data.SQLite的引用
-2.在MainActivity.cs 构造方法中使用 App.assembly_sqliteProvider= typeof(Mono.Data.Sqlite.SqliteCommand).Assembly;
-3.App.xaml.cs的构造方法中（在MainPage 初始化之前）：
+#### 0.先在共享项目中App.xaml.cs 中添加一个public static Assembly assembly_sqliteProvider =null; 
+#### 1.先到安卓项目中添加对System.Data.SQLite的引用
+#### 2.在MainActivity.cs 构造方法中使用 App.assembly_sqliteProvider= typeof(Mono.Data.Sqlite.SqliteCommand).Assembly;
+#### 3.App.xaml.cs的构造方法中（在MainPage 初始化之前）：
 ```c#
             SQLiteDBEngine.assembly_Sqlite_Connection = assembly_sqliteProvider;
 			String basePath = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
