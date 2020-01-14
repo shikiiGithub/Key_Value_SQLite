@@ -1,10 +1,13 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29424.173
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_Key_Value_DB", "Test_Key_Value_DB\Test_Key_Value_DB.csproj", "{E800C1BF-783A-4E24-B05F-9D509A1C5076}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Key_Value_Sqlite", "Key_Value_Sqlite\Key_Value_Sqlite.csproj", "{58220B46-6418-4335-B2FE-EE18BAD1268B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Key_Value_Sqlite.NETStandard", "Key_Value_Sqlite.NETStandard\Key_Value_Sqlite.NETStandard.csproj", "{4440878C-5EFB-4E1C-B364-7AD81D2FAC5A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,6 +23,10 @@ Global
 		{58220B46-6418-4335-B2FE-EE18BAD1268B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58220B46-6418-4335-B2FE-EE18BAD1268B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58220B46-6418-4335-B2FE-EE18BAD1268B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4440878C-5EFB-4E1C-B364-7AD81D2FAC5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4440878C-5EFB-4E1C-B364-7AD81D2FAC5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4440878C-5EFB-4E1C-B364-7AD81D2FAC5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4440878C-5EFB-4E1C-B364-7AD81D2FAC5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

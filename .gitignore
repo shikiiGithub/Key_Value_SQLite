@@ -1,3 +1,4 @@
 obj
-/Key_Value_SQLite/.vs
+.vs
+/Key_Value_SQLite/Key_Value_Sqlite.NETStandard/bin
 /Key_Value_SQLite/Test_Key_Value_DB/bin
